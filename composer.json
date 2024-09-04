@@ -1,6 +1,7 @@
 {
   "name": "erikwegner/oidcproxy",
   "type": "contao-bundle",
+  "description": "Backend for frontend login using OpenID Connect",
   "require": {
     "contao/core-bundle": "^5.0"
   },
