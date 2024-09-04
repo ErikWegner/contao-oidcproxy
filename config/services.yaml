@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  Erikwegner\Oidcproxy\:
+    resource: ../src
+    exclude: ../src/{ContaoManager,DependencyInjection}

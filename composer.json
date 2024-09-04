@@ -1,0 +1,21 @@
+{
+  "name": "erikwegner/oidcproxy",
+  "type": "contao-bundle",
+  "require": {
+    "contao/core-bundle": "^5.0"
+  },
+  "license": "LGPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "Erikwegner\\Oidcproxy\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Erik Wegner"
+    }
+  ],
+  "extra": {
+    "contao-manager-plugin": "Erikwegner\\Oidcproxy\\ContaoManager\\Plugin"
+  }
+}
